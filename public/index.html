@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gaming Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="\bootstrap\dist\css\bootstrap.css" />
+    <link rel="stylesheet" href="\@fortawesome\fontawesome-free\css\all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+
+
+    <div id="map-here">
+        <div id="stats-here" class="row"></div>
+        <div class="row-1 row"></div>
+        <div class="row-2 row"></div>
+        <div class="row-3 row"></div>
+        <div class="row-4 row"></div>
+        <div class="row-5 row"></div>
+        <div class="row-6 row"></div>
+        <div class="row-7 row"></div>
+        <div class="row-8 row"></div>
+        <div class="row-9 row"></div>
+        <div class="row-10 row"></div>
+    </div>
+
+
+    <script id="stat-template" type="text/x-handlebars-template">
+        {{#each stat}}
+        <div class='stat'>
+            {{name}}: {{amount}}
+        </div>
+        {{/each}}
+    </script>
+
+    <script id="green-template" type="text/x-handlebars-template">
+    <div class='{{class}} boxDiv'></div>
+    </script>
+
+    <script id="wall-template" type="text/x-handlebars-template">
+        <div class='{{class}} boxDiv'></div>
+        </script>
+
+    <script id="character-template" type="text/x-handlebars-template">
+        <div class='{{class}} boxDiv'>
+            <img src="./Images/person.png">
+        </div>
+    </script>
+
+    <script id="coin-template" type="text/x-handlebars-template">
+        <div class='{{class}} boxDiv'>
+            <div class="coinDesign">
+                <div class="innerCoin"></div>
+            </div>
+        </div>
+    </script>
+
+    <script id="img-template" type="text/x-handlebars-template">
+        <div class='boxDiv'>
+            <img src="{{img}}" class="{{class}}">
+        </div>
+    </script>
+
+    <script src="\jquery\dist\jquery.js"></script>
+    <script src="\handlebars\dist\handlebars.js"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

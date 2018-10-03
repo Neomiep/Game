@@ -1,0 +1,79 @@
+#map-here{
+    padding-left:15px;
+    padding-right:15px;
+    margin:15px;
+    border-radius:2px;
+    display: inline-block;
+    background-color: azure;
+    border:black solid 2px;
+}
+
+#stats-here{
+    position:relative;
+    border-bottom: black solid 2px;
+    width:108.5%;
+    height:30px;
+}
+
+.stat{
+    display:inline-block;
+    margin-right: 5%;
+}
+
+.boxDiv{
+    position:relative;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    background-color: rgb(10, 100, 50);
+}
+
+
+#innerDesign{
+    position:relative;
+    width:60%;
+    height:60%;
+    margin: 20%;
+    border-radius:50%;
+    background-color:black;
+}
+
+.fas{
+    position:relative;
+    width:80%;
+    height:100%;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.coinDesign{
+    position:relative;
+    width:10px;
+    height:10px;
+    margin: 15px;
+    border-radius:50%;
+    background-color:yellow;
+    border:black solid 1px;
+    transform: skewY(10deg);
+}
+
+.innerCoin{
+    position:relative;
+    width:8px;
+    height:8px;
+    margin:0.5px;
+    border-radius:50%;
+    border:black solid 1px;
+    transform: skewY(10deg);
+}
+
+.wallDiv{
+    background-color: rgb(29, 13, 13)
+}
+
+.gemDiv{
+    position:relative;
+    width:15px;
+    height:15px;
+    margin: 12.5px;
+}
